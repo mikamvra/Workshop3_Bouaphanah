@@ -16,7 +16,7 @@ public class Main {
             System.out.println("\033[38;2;255;105;180m~~Store Menu~~\033[0m");
             System.out.println("1. Display Products");
             System.out.println("2. Display Cart");
-            System.out.println("3. EXIT");
+            System.out.println("\033[38;2;255;0;0m3. EXIT\033[0m");
 
             String choice =  input.nextLine();
             switch (choice){
